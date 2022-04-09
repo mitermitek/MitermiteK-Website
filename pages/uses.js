@@ -55,11 +55,7 @@ export default function Uses() {
         Et donc je travaille sur un MacBook Air de 2020, avec la puce M1
         d&apos;Apple (qui est incroyable d&apos;ailleurs !).
       </p>
-      <p className="text-justify mb-10">
-        Je vais vous lister, ci-dessous, les logiciels que j&apos;utilise sur
-        mon MacBook. Je vais faire ça par catégories.
-      </p>
-      <p className="mb-10">Pour tout ce qui est utilitaire au quotidien :</p>
+      <p className="text-justify mb-10">Voici mes logiciels :</p>
       <ul className="mb-10">
         <li className="flex flex-row justify-start items-center mb-2">
           <Image
@@ -84,7 +80,6 @@ export default function Uses() {
           </span>
         </li>
       </ul>
-      <p className="mb-10">Et maintenant, mes outils pour le développement :</p>
       <ul className="mb-10">
         <li className="flex flex-row justify-start items-center mb-2">
           <Image
