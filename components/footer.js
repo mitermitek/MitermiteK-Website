@@ -7,7 +7,7 @@ export default function Footer() {
       <p className="text-sm text-gray-500 mt-8">
         Kevin Mitermite, développeur web full stack
       </p>
-      <p className="text-sm text-gray-500 mt-1">www.mitermitek.fr</p>
+      <p className="text-sm text-gray-500 mt-1">www.mitermitek.dev</p>
     </footer>
   );
 }
