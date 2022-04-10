@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Footer from "./footer";
-import Navbar from "./navbar";
 
 export default function Layout({ children, title }) {
   return (
@@ -42,7 +41,6 @@ export default function Layout({ children, title }) {
         <title>Kevin Mitermite, développeur web full stack : {title}</title>
       </Head>
       <div className="flex flex-col justify-start items-start max-w-2xl mx-auto px-3">
-        <Navbar />
         <div className="py-16 w-full">{children}</div>
         <Footer />
       </div>
