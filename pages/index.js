@@ -18,13 +18,13 @@ export default function Home() {
           <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-2 mt-5 sm:mt-0">
             Kevin Mitermite
           </h1>
-          <p className="text-gray-200 mb-4 text-justify">
+          <p className="mb-4 text-justify">
             Développeur web junior full stack en alternance avec{" "}
             <a
               href="https://www.michelin.fr/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-gray-400 transition-all"
+              className="hover:text-gray-500 transition-all"
             >
               <b>Michelin</b>
             </a>{" "}
@@ -33,13 +33,13 @@ export default function Home() {
               href="https://www.eni-ecole.fr/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-gray-400 transition-all"
+              className="hover:text-gray-500 transition-all"
             >
               <b>ENI Ecole Informatique</b>
             </a>
             .
           </p>
-          <p className="text-gray-400 sm:text-justify">
+          <p className="sm:text-justify">
             Aujourd'hui, je conçois des applications web. Je peux faire du
             back-end ainsi que du front-end (bon pour le front c'est basique
             mais c'est déjà ça 🤓).
@@ -60,14 +60,14 @@ export default function Home() {
         <h2 className="font-bold text-xl md:text-3xl tracking-tight mb-3">
           Mes projets perso
         </h2>
-        <ul className="text-gray-400">
+        <ul>
           <li>
             Site web{" "}
             <a
               href="https://philippelachant.fr/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white font-semibold hover:text-gray-200 transition-all"
+              className="font-semibold hover:text-gray-500 transition-all"
             >
               Philippe Lachant
             </a>
@@ -79,7 +79,7 @@ export default function Home() {
               href="https://louisdelaunay.fr/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white font-semibold hover:text-gray-200 transition-all"
+              className="font-semibold hover:text-gray-500 transition-all"
             >
               Louis Delaunay
             </a>
@@ -91,7 +91,7 @@ export default function Home() {
               href="https://psychologue-desmetz.fr/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white font-semibold hover:text-gray-200 transition-all"
+              className="font-semibold hover:text-gray-500 transition-all"
             >
               Marie Desmetz
             </a>
@@ -113,7 +113,7 @@ export default function Home() {
               height="24"
             />
             <span className="ml-3">
-              Next.js<span className="text-gray-400">, un framework React</span>
+              Next.js<span className="text-gray-500">, un framework React</span>
             </span>
           </li>
           <li className="flex flex-row justify-start items-center mb-2">
@@ -125,7 +125,7 @@ export default function Home() {
               height="24"
             />
             <span className="ml-3">
-              Laravel<span className="text-gray-400">, un framework PHP</span>
+              Laravel<span className="text-gray-500">, un framework PHP</span>
             </span>
           </li>
         </ul>
@@ -140,7 +140,7 @@ export default function Home() {
             />
             <span className="ml-3">
               Google Chrome
-              <span className="text-gray-400">, mon navigateur par défaut</span>
+              <span className="text-gray-500">, mon navigateur par défaut</span>
             </span>
           </li>
           <li className="flex flex-row justify-start items-center mb-2">
@@ -153,7 +153,7 @@ export default function Home() {
             />
             <span className="ml-3">
               Spotify
-              <span className="text-gray-400">
+              <span className="text-gray-500">
                 , indispensable pour moi pour écouter de la musique
               </span>
             </span>
@@ -170,7 +170,7 @@ export default function Home() {
             />
             <span className="ml-3">
               Visual Studio Code
-              <span className="text-gray-400">
+              <span className="text-gray-500">
                 , mon éditeur de code principal (avec des extensions)
               </span>
             </span>
@@ -185,7 +185,7 @@ export default function Home() {
             />
             <span className="ml-3">
               PhpStorm
-              <span className="text-gray-400">
+              <span className="text-gray-500">
                 , l'IDE pour mes projets en Laravel
               </span>
             </span>
@@ -200,7 +200,7 @@ export default function Home() {
             />
             <span className="ml-3">
               Insomnia
-              <span className="text-gray-400">
+              <span className="text-gray-500">
                 , afin de tester mes requêtes API
               </span>
             </span>
@@ -215,7 +215,7 @@ export default function Home() {
             />
             <span className="ml-3">
               Github Desktop
-              <span className="text-gray-400">
+              <span className="text-gray-500">
                 , qui me permet de pousser mon code sur Github
               </span>
             </span>
