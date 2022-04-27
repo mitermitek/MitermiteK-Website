@@ -3,8 +3,8 @@ import Image from "next/image";
 import mitermitek from "../public/images/mitermitek.png";
 import laravel from "../public/images/laravel.png";
 import nextjs from "../public/images/nextjs.png";
-import chrome from "../public/images/chrome.png";
-import spotify from "../public/images/Spotify_Icon_RGB_Green.png";
+import firefox from "../public/images/firefox.png";
+import applemusic from "../public/images/applemusic.jpg";
 import phpstorm from "../public/images/phpstorm.png";
 import vscode from "../public/images/vscode.png";
 import insomnia from "../public/images/insomnia.png";
@@ -132,27 +132,27 @@ export default function Home() {
         <ul className="mb-10">
           <li className="flex flex-row justify-start items-center mb-2">
             <Image
-              alt="Google Chrome"
-              src={chrome}
+              alt="Firefox"
+              src={firefox}
               className="rounded-full"
               width="24"
               height="24"
             />
             <span className="ml-3">
-              Google Chrome
+              Firefox
               <span className="text-gray-500">, mon navigateur par défaut</span>
             </span>
           </li>
           <li className="flex flex-row justify-start items-center mb-2">
             <Image
-              alt="Spotify"
-              src={spotify}
+              alt="Apple Music"
+              src={applemusic}
               className="rounded-full"
               width="24"
               height="24"
             />
             <span className="ml-3">
-              Spotify
+              Apple Music
               <span className="text-gray-500">
                 , indispensable pour moi pour écouter de la musique
               </span>
