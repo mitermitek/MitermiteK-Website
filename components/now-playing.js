@@ -17,7 +17,7 @@ export default function NowPlaying() {
           height="24"
           layout="fixed"
         />
-        <p className="capsize text-gray-200 font-medium ml-2 truncate">
+        <p className="capsize text-gray-500 font-medium ml-2 truncate">
           {data?.title && data?.artist ? (
             <span>
               {data.title} - {data.artist}
@@ -26,8 +26,8 @@ export default function NowPlaying() {
             <span>Ne joue pas</span>
           )}
         </p>
-        <span className="capsize mx-2 text-gray-300 block"> – </span>
-        <p className="capsize text-gray-300 max-w-max">Spotify</p>
+        <span className="capsize mx-2 text-gray-700 block"> – </span>
+        <p className="capsize text-gray-700 max-w-max">Spotify</p>
       </div>
     </div>
   );
