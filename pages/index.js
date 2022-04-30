@@ -4,7 +4,7 @@ import mitermitek from "../public/images/mitermitek.png";
 import laravel from "../public/images/laravel.png";
 import nextjs from "../public/images/nextjs.png";
 import firefox from "../public/images/firefox.png";
-import applemusic from "../public/images/applemusic.jpg";
+import spotify from "../public/images/Spotify_Icon_RGB_Green.png";
 import phpstorm from "../public/images/phpstorm.png";
 import vscode from "../public/images/vscode.png";
 import insomnia from "../public/images/insomnia.png";
@@ -145,14 +145,14 @@ export default function Home() {
           </li>
           <li className="flex flex-row justify-start items-center mb-2">
             <Image
-              alt="Apple Music"
-              src={applemusic}
+              alt="Spotify"
+              src={spotify}
               className="rounded-full"
               width="24"
               height="24"
             />
             <span className="ml-3">
-              Apple Music
+              Spotify
               <span className="text-gray-500">
                 , indispensable pour moi pour écouter de la musique
               </span>
